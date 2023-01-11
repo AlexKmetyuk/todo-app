@@ -1,2 +1,22 @@
-@import './common';
-@import './example';
+li {
+    display: flex;
+    align-items: center;
+    border: 1px solid black;
+    padding: 0px 5px;
+    width: 200px;
+    margin-bottom: 2px;
+    cursor: pointer;
+
+    &[data-completed="true"] {
+        background-color: rgba(0, 128, 0, 0.5);
+    }
+}
+
+li button {
+    height: 20px;
+    margin-left: auto;
+}
+
+// li.completed {
+//     background-color: rgba(0, 128, 0, 0.5);
+// }
