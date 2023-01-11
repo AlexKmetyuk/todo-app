@@ -10,7 +10,7 @@ form.addEventListener('submit', e => {
   if (value.length > 0 && checkSpaces(value)) {
     createTodo(value);
   } else {
-    console.log('Fill the field, please');
+    alert('Fill the field, please');
   }
 });
 
